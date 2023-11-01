@@ -4,25 +4,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>미국 주식 시장 시계</title>
+    <title>국제 주식 시장 시계</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <div class="container">
-        <h1>미국 주식 시장 시계</h1>
+        <h1>국제 주식 시장 시계</h1>
+        <h2>미국 (EST)</h2>
         <p id="us-time">Loading...</p>
         <h2>한국 시간 기준 미국 주식 시장</h2>
         <p id="kr-us-time">Loading...</p>
         <button id="toggle-darkmode">Toggle Dark Mode</button>
     </div>
 
-   
     <div class="info-container">
         <h3>미국 주식 시장 시간에 대한 설명</h3>
         <p>미국 주식 시장의 대표적인 거래소는 뉴욕 주식 거래소(NYSE)와 나스닥(NASDAQ)입니다. 이 거래소들의 표준 영업 시간은 미국 동부 표준시(EST)로 오전 9:30부터 오후 4:00까지입니다.</p>
         <p>한국은 미국 동부 표준시보다 앞서 14시간 있습니다. 따라서 한국 시간으로는 밤 10:30에 시작하여 다음날 오전 5:00에 마감하게 됩니다. 주의할 점은 일광 절약 시간제 적용 시에는 시간 차이가 달라질 수 있습니다.</p>
+    </div>
+
+    <!-- 시간 표시 영역 -->
+    <div class="clocks-container">
+        <div class="clock-item">
+            <h2>중국 (CST)</h2>
+            <div id="china-time">Loading...</div>
         </div>
+        <div class="clock-item">
+            <h2>일본 (JST)</h2>
+            <div id="japan-time">Loading...</div>
+        </div>
+        <div class="clock-item">
+            <h2>영국 (GMT)</h2>
+            <div id="uk-time">Loading...</div>
+        </div>
+        <div class="clock-item">
+            <h2>인도 (IST)</h2>
+            <div id="india-time">Loading...</div>
+        </div>
+    </div>
+
     <script src="script.js"></script>
 </body>
 
