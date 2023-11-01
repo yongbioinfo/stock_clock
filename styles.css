@@ -1,15 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
 body {
-    font-family: 'Arial', sans-serif;
-    transition: background-color 0.3s;
+    font-family: 'Roboto', sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+    background-color: #1b1b2f;
+    color: #c5c6c7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .container {
     text-align: center;
-    margin-top: 50px;
+    background: #3a3a3c;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    width: 70%;
+    max-width: 500px;
+}
+
+h1 {
+    font-size: 2.2em;
+    margin-bottom: 1em;
+    font-weight: 700;
+    color: #f8f8f2;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    color: #66fcf1;
+}
+
+p {
+    font-size: 1.2em;
+    font-weight: 300;
 }
 
 #toggle-darkmode {
     padding: 10px 20px;
     border: none;
     cursor: pointer;
+    background-color: #45a29e;
+    color: #1b1b2f;
+    border-radius: 10px;
+    font-size: 1em;
+    margin-top: 20px;
+    transition: background-color 0.3s, color 0.3s;
+    font-weight: 600;
+}
+
+#toggle-darkmode:hover {
+    background-color: #1f2833;
+    color: #66fcf1;
 }
